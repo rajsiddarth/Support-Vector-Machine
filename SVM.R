@@ -1,7 +1,6 @@
 rm(list=ls(all=T))
 library(RCurl)
-data=read.table(text = getURL("https://raw.githubusercontent.com
-               /rajsiddarth/Datasets/master/Bank_dataset.csv"), header=T, sep=',')
+data=read.table(text = getURL("https://github.com/rajsiddarth/Support-Vector-Machine/blob/master/Bank_dataset.csv"), header=T, sep=',')
                 
 str(data)
 drop_atr=c("ID","ZIP.Code","Experience")
