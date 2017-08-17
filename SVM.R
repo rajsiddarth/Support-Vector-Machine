@@ -1,6 +1,7 @@
 rm(list=ls(all=T))
 library(RCurl)
-data=read.table("https://github.com/rajsiddarth/Support-Vector-Machine/blob/master/Bank_dataset.csv",header=F)
+data=read.table("https://github.com/rajsiddarth/Support-Vector-Machine/blob/master
+             /Bank_dataset.csv",header=F)
 str(data)
 drop_atr=c("ID","ZIP.Code","Experience")
 names=setdiff(colnames(data),drop_atr)
