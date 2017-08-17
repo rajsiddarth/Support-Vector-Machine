@@ -1,5 +1,6 @@
 rm(list=ls(all=T))
 library(RCurl)
+
 data=read.table(text = getURL("https://github.com/rajsiddarth/Support-Vector-Machine/blob/master/Bank_dataset.csv"), header=T, sep=',')
                 
 str(data)
