@@ -1,4 +1,5 @@
 1. Classifying loan defaulters in Bank data set using SVM
+
 The Bank data set used contains 12 features, 5000 samples with Personal loan as target variable.
 The independent features are
 ID: Customer ID
@@ -16,4 +17,3 @@ Online : Does the customer use internet banking facilities?
 CreditCard: Does the customer use a credit card issued by the respective bank?
 Personal Loan : Did the customer accept the personal loan offered in the last campaign? 
 
-2. 
